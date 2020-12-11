@@ -1,0 +1,40 @@
+<head>
+    <script src="calendar.js" charset="utf-8" defer></script>
+</head>
+{{> header}}
+<main class="content">
+
+    {{> calandar}}
+    {{> addQuest}}
+</main>
+
+<section>
+</section>
+
+<button type="button" class="btn btn-primary position-fixed bottom-0 end-0" data-bs-toggle="modal" data-bs-target="#QuestAdder">
+    Add a Quest
+</button>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary position-fixed bottom-0 start-0" data-bs-toggle="modal" data-bs-target="#complete-button">
+  Come here when you have completed a quest
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="complete-button" tabindex="-1" aria-labelledby="complete-buttonLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="complete-buttonLabel">Quest completion</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Did you complete a Quest today? be honest we cant debug
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id = "completed-quest">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>

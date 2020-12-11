@@ -1,0 +1,17 @@
+html{
+    font-size: 1.01em;
+  }
+body{
+    background-color: #181a1b;
+}
+
+h1,h2,ul,li,span,p,.EM{
+    color: #e8e6e3;
+}
+
+.link, a{
+    color: rgb(102, 102, 102);
+}
+.Concept{
+    width: 50%;
+}

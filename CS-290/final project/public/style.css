@@ -1,0 +1,183 @@
+
+progress{
+    height: 15px;
+    width: 100%;
+    border: solid black;
+    border-radius: 20px;
+    color: black;
+    
+}
+
+.user-info{
+    position: fixed;
+    top: 60px;
+    color: white;
+}
+
+.header-container{
+    background-color: black;
+    padding-bottom: 15px;
+    margin-top: -20px;
+    margin-left: -7px;
+    margin-bottom: 10px;
+    color: white;
+    height: 100px;
+}
+.site-title{
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+progress::-webkit-progress-bar{
+    background: white;    
+}
+
+progress::-webkit-progress-value{
+    background: orange;
+}
+
+#Calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.weeks {
+    /* position: relative;
+    top: 200px;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    padding: 5px;
+    margin: 0px; */
+}
+
+.Days > span {
+    font-size: 1.5em;
+}
+
+.Days {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    border: 1px solid #535353;
+    border-radius: 3px;
+    height: 250px;
+    width: 220px;
+    margin: 10px;
+}
+
+    .Days:hover {
+        cursor: pointer;
+    }
+
+.Temp-Event ol {
+    width: 100%;
+    height: 75%;
+    padding-left: 15px;
+}
+
+.Temp-Event li {
+    font-size: 1.1em;
+}
+
+#Clickable {
+    max-height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#modal-backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.hidden {
+    display: none;
+}
+
+#modal-backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+#event-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1010;
+    overflow: scroll;
+}
+
+.modal-dialog {
+    width: auto;
+    max-width: 600px;
+    min-width: 350px;
+    min-height: 300px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.modal-header {
+    position: relative;
+    padding: 10px 20px;
+}
+
+    .modal-header h3 {
+        margin: 0;
+        font-size: 28px;
+    }
+
+#modal-close {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 24px;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px 20px 10px;
+}
+
+#modal-cancel,
+#modal-accept {
+    margin-right: 20px;
+}
+
+#modal-cancel {
+    color: #333;
+    background-color: #fff;
+}
+
+    #modal-cancel:hover {
+        background-color: #eee;
+    }
+/*welcome page css*/
+
+
+

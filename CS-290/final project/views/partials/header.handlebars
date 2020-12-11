@@ -1,0 +1,23 @@
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">{{name}}</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<script src="index.js" charset="utf-8" defer></script>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="user-info">
+				Current Level : <span id="current-level"> {{level}} </span>
+				<progress id="progress-bar" max="{{maxExp}}" value="{{currExp}}" data-label="Current xp is 0"> </progress>
+			</div>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="/">Calendar</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="games">Festivity</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>

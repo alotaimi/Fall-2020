@@ -1,0 +1,29 @@
+{
+  "name": "final-project-team-3",
+  "version": "1.0.0",
+  "description": "Team 3's final project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "handlebars views/partials/calandar.handlebars -f public/calandartemplate.js",
+    "buildH": "handlebars views/partials/addQuest.handlebars -f public/addQuesttemplate.js",
+    "prestart": "npm run build",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osu-cs290-f20/final-project-team-3.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/osu-cs290-f20/final-project-team-3/issues"
+  },
+  "homepage": "https://github.com/osu-cs290-f20/final-project-team-3#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "handlebars": "^4.7.6"
+  }
+}

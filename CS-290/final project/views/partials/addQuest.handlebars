@@ -1,0 +1,28 @@
+<head>
+	<link rel="stylesheet" href="queststyle.css">
+</head>
+<div class="modal fade" id="QuestAdder" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="QuestAdderLabel">Quests</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div class="addQuest-input-element">
+					<label for="addQuest-desc-inp">Quest Description</label>
+					<input type="text" id="addQuest-desc-inp"></input>
+				</div>
+				<div class="addQuest-input-element">
+					<!--might not be needed depending what we do with dates-->
+					<label for="addQuest-date-inp">Date</label>
+					<input type="date" id="addQuest-date-inp"></input>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary" id="addQuest-add">Add Quest</button>
+			</div>
+		</div>
+	</div>
+</div>
